@@ -13,3 +13,4 @@ async def pong(settings: Settings = Depends(get_settings)):
         "environment": settings.environment,
         "testing": settings.testing
     }
+    
